@@ -10,7 +10,6 @@ public class GoalController : ControllerBase
 {
     private readonly IGoalsService _goalsService;
     private readonly IUsersService _usersService;
-
     public GoalController(IGoalsService goalsService, IUsersService usersService)
     {
         _goalsService = goalsService;
